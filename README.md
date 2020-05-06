@@ -1,4 +1,3 @@
-<img src="https://github.com/ppc-ntu-khpi/uml-java-34-aTochilov/blob/master/other/classDia.png" width="100%"/>
 
 # Практична робота "Проектування ієрархії класів. Використання UML"
 
@@ -8,5 +7,7 @@
 ## В рамках практичної роботи виконано наступне:
 1. Створено UML-діаграму (за допомогою StarUML)
 2. Виконано кодогенерацію.
+
+<img src="https://github.com/ppc-ntu-khpi/uml-java-34-aTochilov/blob/master/other/classDia.png" width="100%"/>
 
 
