@@ -1,4 +1,4 @@
-<img src="https://github.com/ppc-ntu-khpi/uml-java-34-aTochilov/tree/master/other/classDia.png" width="100%"/>
+<img src="https://github.com/ppc-ntu-khpi/uml-java-34-aTochilov/tree/master/other/ClassDia.png" width="100%"/>
 
 # Практична робота "Проектування ієрархії класів. Використання UML"
 
