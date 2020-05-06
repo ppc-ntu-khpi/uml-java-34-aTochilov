@@ -16,7 +16,7 @@ public class SavingAccount extends Account {
     /**
      * 
      */
-    protected static double interest;
+    private static double interest;
 
     /**
      * @param balance

@@ -21,45 +21,55 @@ public class Bank {
     /**
      * 
      */
-    private static Customer[]  customers;
+    protected static Customer[]  customers;
 
     /**
      * 
      */
-    private int customersNumber;
+    protected int customersNumber;
+
+    /**
+     * 
+     */
+    private static Manager[] managers;
+
+    /**
+     * 
+     */
+    private static int managersNumber;
 
 
+
+    /**
+     * 
+     */
+    public void Bank() {
+        // TODO implement here
+    }
 
     /**
      * @param fn 
      * @param ln
      */
-    public void addCustomer(String fn, String ln) {
+    public void addManager(String fn, String ln) {
         // TODO implement here
-    }
-
-    /**
-     * @return
-     */
-    public int getCustomersNumber() {
-        // TODO implement here
-        return 0;
     }
 
     /**
      * @param index 
      * @return
      */
-    public static Customer  getCustomer(int index) {
+    public static Customer  getManager(int index) {
         // TODO implement here
         return null;
     }
 
     /**
-     * @param index
+     * @return
      */
-    public void deleteCustomer(int index) {
+    public static int getManagersNumber() {
         // TODO implement here
+        return 0;
     }
 
 }

@@ -1,32 +1,17 @@
-package Customer;
+package Bank;
 
 import java.util.*;
 
 /**
  * 
  */
-public class Customer {
+public class Manager {
 
     /**
      * Default constructor
      */
-    public Customer() {
+    public Manager() {
     }
-
-    /**
-     * 
-     */
-    private Account[] accounts;
-
-    /**
-     * 
-     */
-    private Account acct;
-
-    /**
-     * 
-     */
-    private int  accountsNumber;
 
     /**
      * 
@@ -39,13 +24,11 @@ public class Customer {
     private String  lastName;
 
 
-
-
     /**
-     * @param firstName 
-     * @param lastName
+     * @param fn 
+     * @param ln
      */
-    public void Customer(String firstName, String lastName) {
+    public void Manager(String fn, String ln) {
         // TODO implement here
     }
 
@@ -66,27 +49,28 @@ public class Customer {
     }
 
     /**
-     * @param acc
+     * @param fn 
+     * @param ln
      */
-    public void addAccount(Account acc) {
+    public void addCustomer(String fn, String ln) {
         // TODO implement here
     }
 
     /**
+     * @param index 
      * @return
      */
-    public int getNumOfAccounts() {
-        // TODO implement here
-        return 0;
-    }
-
-    /**
-     * @param acct_index 
-     * @return
-     */
-    public Account  getAccount(int acct_index) {
+    public static Customer  getCustomer(int index) {
         // TODO implement here
         return null;
+    }
+
+    /**
+     * @return
+     */
+    public static int getCustomersNumber() {
+        // TODO implement here
+        return 0;
     }
 
 }
